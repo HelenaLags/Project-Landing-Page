@@ -17,7 +17,7 @@ section.hero > #main {
 }
 
 /* Hero secondary text, header link text */
-section.hero > p#secondarytext,
+section.hero > p#SecondaryText,
 .links {
     font-size: 18px;
     color: #e5e7eb;
