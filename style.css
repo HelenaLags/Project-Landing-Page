@@ -1,0 +1,53 @@
+/* "The font that’s being used in the images is roboto." */
+* {
+    font-family: 'Roboto';
+}
+
+/* Dark background color (hero and footer) */
+section.hero,
+footer {
+    background-color: #1f2937;
+}
+
+/* Hero main text ("this website is awesome") */
+section.hero > #main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+/* Hero secondary text, header link text */
+section.hero > p#secondarytext,
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Header logo text */
+section.hero > #logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Button color (for header), call to action background color #3882f6 - WILL GO BACK TO BUTTON LATER!!! */
+.CallToAction {
+    background-color: #3882f6;
+}
+
+/* Information header text */
+header.InfoText > p{
+    font-size: 36px;
+    font-weight: bolder;
+    font: #1f2937;
+}
+
+/* Quote section background color */
+.quote {
+    background-color: #e5e7eb;
+}
+
+/* Quote text ~ Italic on HTML (em)*/
+.quote > p {
+    font-size: 36px;
+    color: #1f2937;
+}
