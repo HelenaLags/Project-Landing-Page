@@ -4,38 +4,40 @@
 }
 
 /* Dark background color (hero and footer) */
-section.hero,
+.hero,
 footer {
     background-color: #1f2937;
 }
 
 /* Hero main text ("this website is awesome") */
-section.hero > #main {
+#main {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
 }
 
 /* Hero secondary text, header link text */
-section.hero > p#SecondaryText,
+#secondarytext,
 .links {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 /* Header logo text */
-section.hero > #logo {
-    font-size: 24px;
+.logo {
+    font-size: 24px; 
     color: #f9faf8;
 }
 
-/* Button color (for header), call to action background color #3882f6 - WILL GO BACK TO BUTTON LATER!!! */
-.CallToAction {
+/* Button color, call to action background color #3882f6 */
+.calltoaction > #calltoaction,
+.herobutton,
+.calltoactionbutton {
     background-color: #3882f6;
 }
 
 /* Information header text */
-header.InfoText > p{
+.infotext > p {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -47,7 +49,96 @@ header.InfoText > p{
 }
 
 /* Quote text ~ Italic on HTML (em)*/
-.quote > p {
+#quote > p {
     font-size: 36px;
     color: #1f2937;
+}
+
+/* My CSS Goes Here */
+
+body {
+    margin: 0;
+}
+
+.hero {
+    height: 225px;
+    padding: 30px 250px 100px;
+}
+
+#main {
+    padding-top: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 30px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.infotext {
+    text-align: center;
+    margin: 30px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.infotextcontent {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+}
+
+.text {
+    max-width: 175px;
+    text-align: center;
+}
+
+.quote {
+    padding-left: 410px;
+    padding-right: 465px;
+    padding-top: 125px;
+    height: 350px;
+}
+
+.quote > #quote > h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calltoaction {
+    padding: 50px;
+}
+
+.calltoaction > #calltoaction {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    padding-top: 50px;
+    height: 200px;
+    border-style: dashed;
+    color: white;
+}
+
+
+
+button {
+    border-radius: 15%;
+    color: #f9faf8;
 }
